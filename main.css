@@ -1,5 +1,4 @@
-body
-{
+body{
 	margin: 0;
 	background-color: #2F3336;
 	color: #efefef;
@@ -8,8 +7,7 @@ body
 }
 
 
-h1.logo
-{
+h1.logo{
 	font-size: 44px;
 	font-weight: 700;
 	color: #ddd;
@@ -18,4 +16,60 @@ h1.logo
 	letter-spacing: 5px;
 	margin-top: 50px;
 	margin-bottom: 40px;
+}
+
+
+nav{
+ background-color: #1c74b2;
+ text-align: center;
+
+}
+
+
+.menu{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+}
+
+.menu > li
+{
+	display: inline;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+}
+
+.menu > li:first-child{
+	border-left: 1px dashed #0a2b42;
+}
+
+
+.menu a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.menu a:hover{
+	color: #0a2b42;
+	
+}
+
+
+.categories{
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	text-align: center;
+	padding: 0px;
+}
+
+h1{
+	font-size: 44px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
 }
